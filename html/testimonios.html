@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #c7c878;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+<link href="../css/style.css" rel="stylesheet" type="text/css"><link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<title>Testimonios</title>
+	
+</head>
+
+<body>
+	
+<header><h1 class="animate__animated animate__fadeInRight"><img src="../img/imagotipo02.png" width="4%" height="4%" alt=""/>Ana C. Ponce</h1></header>
+<nav>
+	<div class="topnav" id="myTopnav">
+  		<a href="inicio.html" class="active">Inicio</a>
+  		<a href="galeria.html">Galeria</a>
+  		<a href="experiencia.html">Experiencia</a>
+  		<a href="testimonios.html">Testimonios</a>
+		<a href="contactos.html">Contactos</a>
+  		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i></a>
+	</div>
+
+</nav>
+<main>
+	<section>
+		<h2 class="animate__animated animate__fadeInDown">Testimonios</h2>
+			<div class="contenedor-testimonios" >
+				<div>
+					<dt style="font-weight:bolder">Angelica Hernandez</dt>
+					En la vida seguro nos encontramos con un número incontable de personas, pero en definitiva también solo recordaremos un mínimo porcentaje. 
+					Y Cecilia “Ceci” Ponce es una de esas personas que seguro recordarás. Ella es una persona que se desataca por su compañerismo, amabilidad, calidez, empatía, y gran sentido del humor. En lo profesional  su facilidad para resolver problemas, su practicidad, y su capacidad para retener información son cualidades que en las múltiples ocasiones que he trabajado con ella han salido a relucir y nos han ayudado a terminar los proyectos satisfactoriamente.Ya sea como persona, como amiga, o como compañera de trabajo, vale la convivir y trabajar con ella, ya que lo haces con alguien que no solo es talentoso que además destaca por su gran calidad de persona.
+				</div>
+				<div>
+					<dt style="font-weight:bolder">Alicia Mendez</dt>
+					Doy testimonio del desempeño profesional que ha obtenido desde que la conozco en la universidad hasta la actualidad, ha mostrado  seriedad y responsabilidad en cada trabajo que elabora, sus proyectos y/o trabajos son ejemplo de la concentración, dedicación y gusto por lo que estudia, yo observo en ella liderazgo en trabajos colaborativos, cuenta con grandes habilidades en la ilustración análoga y digital y la verdad es que ella es de las personas que tiene pensamiento un lógico y crítico muy desarrollado el cual transmite en sus ilustraciones , textos y palabras.
+				</div>
+				<div><dt style="font-weight:bolder">Valeria Vera</dt>Ana es una persona introvertida/ extrovertida al principio es tímida, ya que quiere considerar si las personas pueden apoyarla o no, sin embargo, después de ganarte su confianza muestra mucha seguridad en sus decisiones, te sientes cómoda con ella. En la universidad la he considerado inteligente y creativa incluso recibiendo felicitaciones de algunos maestros, es muy organizada cuando se trabaja en equipo y es buena debatiendo.</div>
+			</div>
+	</section>
+
+</main>
+<footer>
+	<div class="contenedor-footer">
+		<div><p>Creado por Ana Cecilia Ponce Bonilla</p></div>
+	</div>
+</footer>
+	
+	
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
+
